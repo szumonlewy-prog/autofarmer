@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autofarmer",
+  "version": "${version}",
+  "name": "Auto Farmer",
+  "description": "Blok, który sam bierze nasiona ze skrzynki, sadzi, zbiera plony i odkłada je do innej skrzynki.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.autofarmer.AutoFarmerMod"],
+    "client": ["com.example.autofarmer.client.AutoFarmerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

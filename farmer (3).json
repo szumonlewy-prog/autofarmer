@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["IHI", "ICI", "III"],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "H": "minecraft:iron_hoe",
+    "C": "minecraft:chest"
+  },
+  "result": { "id": "autofarmer:farmer" }
+}
